@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<meta charset = "utf-8"/>
+		<title>Hawk Heap - Home Page</title>
+		<link rel = "shortcut icon" href = "web_images/favicon_hawkheap.png" type = "image/png"/>
+
+		<!-- Style sheet implemented from mainStructure.css as well as style used within the file-->
+		<link rel = "stylesheet" href = "mainStructure.css" type = "text/css"/>
+		<style>
+			#bodyBoxDesign {
+				margin-left: auto;
+				margin-right: auto;
+				padding: 1%;
+				margin-top: 50px;
+				width: 30%;
+				height: 30%;
+				background-color: #ffcaca;
+				border: 5px solid #ff0000;
+				box-shadow: 3px 6px 20px;
+			}
+
+			#logoBody {
+				width: 10vw;
+			}
+
+			#titleBody {
+				position: relative;
+				width: 10vw;
+				bottom: 2vw;
+			}
+
+			#loginButton {
+				position: relative;
+				display:inline-block;
+				width: 10vw;
+			}
+
+			#signupButton {
+				position: relative;
+				display:inline-block;
+				width: 14vw;
+			}
+
+			img:hover.tiltImage {
+				transform: rotate(-5deg);
+			}
+
+			a.linkVisibility {
+				text-decoration: none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!-- Create top heading section of the website with the image and hawk heap title as well as 
+			montclair state university logo to the right-->
+		<div id = "headerBoxDesign">
+			<img id = "hawkHeapLogo" src = "web_images/hawkheap_logo.png" alt = "Hawk Heap Logo"/>
+			<img id = "hawkHeapTitle" src = "web_images/hawkheap_title.png" alt = "Hawk Heap Title"/>
+			<img id = "msuLogo" src = "web_images/msu_logo.png" alt = "Montclair State University Logo"/>
+		</div>
+
+		<!-- Include the words 'welcome to' to be aligned with the hawk image and hawk heap title -->
+		<div class = "centerContents">
+			<p class = "boldedText">Welcome to</p>
+			<img id = "logoBody" src = "web_images/hawkheap_logo.png" alt = "Hawk Heap Logo"/>
+			<img id = "titleBody" src = "web_images/hawkheap_title.png" alt = "Hawk Heap Title"/>
+		</div>
+
+		<!-- Red box design with a paragraph inside the box -->
+		<div id = "bodyBoxDesign">
+			<p class = "bodyParagraph">This is a website designed for students that are CSIT majors!
+			This website stores questions and answers from students regarding specific
+			CSIT courses! Please be respectful to each other! Thank you!</p>
+		</div>
+
+		<!-- Create a box seperately for the login button and one for the sign up button. The buttons will redirect to 
+			specific pages with forms in it -->
+		<div style = "text-align:center">
+			<div id = "bodyBoxDesign" style = "display: inline-block; width: 10%; height: 30%; margin-right: 3%">
+				<a href = "login_verification.php" class = "linkVisibility">
+					<img id = "loginButton" class = "tiltImage" src = "web_images/login_button.png" alt = "Login Button"/>
+				</a>
+			</div>
+			<div id = "bodyBoxDesign" style = "display:inline-block; width: 14%; height: 30%">
+				<a href = "signup_verification.php" class = "linkVisibility">
+					<img id = "signupButton" class = "tiltImage" src = "web_images/signup_button.png" alt = "Signup Button"/>
+				</a>
+			</div>
+		</div>
+	</body>
+	<!-- Implement copyright and year as well as my name and other footer details -->
+	<footer>
+		<div class = "centerContents">
+			<p class = "boldedText" style = "margin-top: 5%; font-size: 0.8vw">
+				&copy; 2000 - 2020 Arthur Levitsky.<br/>
+				Montclair State University - Computer Science and Technology.<br/>
+				CSIT 337 - Internet Computing.
+			</p>
+		</div>
+	</footer>
+</html>

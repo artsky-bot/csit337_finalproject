@@ -1,0 +1,72 @@
+#headerBoxDesign {
+	width: 100vw;
+	height: 225px;
+	background-color: #ffcaca;
+	border-bottom: 5px solid #ff0000;
+}
+
+#hawkHeapLogo {
+	position: absolute;
+	width: 208px;
+	height: 200px;
+	top: 10px;
+}
+
+#hawkHeapTitle {
+	position: absolute;
+	width: 260px;
+	top: 130px;
+	left: 200px;
+}
+
+#msuLogo {
+	position: absolute;
+	margin-top: -4.29%;
+	width: 13%;
+	top: 226px;
+	right: 8%;
+}
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+p.bodyParagraph {
+	text-align: center;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	font-size: 2vw;
+	font-size: 2vh;
+	font-weight: bold;
+}
+
+div.centerContents {
+	margin-top: 50px;
+	text-align:center;
+}
+
+p.boldedText {
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	display: inline-block;
+	position: relative;
+	font-size: 1vw;
+	bottom: 2.5vw;
+	font-weight: bolder;
+	text-shadow: 2px 2px 3px;
+	line-height: 1.5;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px black;
+	background: darkred;
+}
+
+::-webkit-scrollbar-thumb {
+	background: red;
+	border: 1px solid black;
+	border-radius: 5px;
+}
