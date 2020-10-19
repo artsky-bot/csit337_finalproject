@@ -1,6 +1,6 @@
 # Hawk Heap - CSIT337: Internet Computing Project
 
-<img src = "https://github.com/artsky-bot/hawkheap_finalproject/blob/master/arthurteamProject/web_images/hawkheap_logo.png?raw=true" alt = "Red Hawk"/>
+<div style = "text-align: center"><img src = "https://github.com/artsky-bot/hawkheap_finalproject/blob/master/arthurteamProject/web_images/hawkheap_logo.png?raw=true" alt = "Red Hawk" width = "400px" height = "400px"/></div>
 
 *Hawk Heap* is a question and answer styled website that is inspired by websites like *Stack Overflow*. The purpose is for this website to allow students that are CS and IT majors to ask questions about specific CSIT courses at *Montclair State University*. Students can also exchange answers for those questions to help out other students. 
 
